@@ -5,8 +5,8 @@
   "main": "out/init.lua",
   "scripts": {
     "build": "rbxtsc",
-    "watch": "rbxtsc -w",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build && ./scripts/delete-specs.sh ./out",
+    "unittests": "rbxtsc --type game && rojo build --output unit-tests.rbxl && lune run ./run-unit-tests.luau ./unit-tests.rbxl"
   },
   "repository": {
     "type": "git",
@@ -40,5 +40,9 @@
     "prettier": "^3.5.3",
     "roblox-ts": "^3.0.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@rbxts/round-towards-zero": "^1.0.0",
+    "@rbxts/testez": "^0.4.2-ts.0"
   }
 }
