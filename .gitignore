@@ -1,0 +1,10 @@
+include/
+node_modules/
+out/
+*.rbxlx
+*.rbxlx.lock
+*.rbxl
+*.rbxl.lock
+.DS_STORE
+sourcemap.json
+.devcontainer/
