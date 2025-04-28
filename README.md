@@ -1,1 +1,2 @@
-# roblox-ts_timespan
+# @rbxts/timespan
+A simple `TimeSpan` class.
