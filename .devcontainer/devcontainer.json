@@ -1,0 +1,19 @@
+{
+	"name": "roblox-ts dev",
+	"image": "noahwillcrow97/roblox-ts-dev:3.0.0",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"cardinal90.multi-cursor-case-preserve",
+				"continue.continue",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"johnnymorganz.luau-lsp",
+				"roblox-ts.vscode-roblox-ts",
+				"rvest.vs-code-prettier-eslint"
+			]
+		}
+	},
+	"postCreateCommand": "npm i -g npm@latest",
+	"remoteUser": "root"
+}

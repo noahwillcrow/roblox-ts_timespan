@@ -7,4 +7,3 @@ out/
 *.rbxl.lock
 .DS_STORE
 sourcemap.json
-.devcontainer/
